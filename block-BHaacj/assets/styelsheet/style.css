@@ -65,6 +65,7 @@ body {
 }
 .container {
     max-width: 1100px;
+	width: 100%;
     margin: 0 auto;
 }
 .flex {
@@ -268,18 +269,35 @@ strong {
 	background-color: #fff;
 }
 .blog-img {
-	width: 50%;
 	position: relative;
 }
 .blog-img img {
 	width: 100%;
 	display: block;
 }
+.icon-container {
+	position: absolute;
+	top: 50%;
+}
+.left {
+	left: 80%;
+}
+.right {
+	right: 80%;
+}
 .blog-article {
    color: #fff;
    background-color: var(--primary);
    width: 70%;
    padding: 30px 60px;
+   position: relative;
+   z-index: 1;
+}
+.article-left {
+	left: -30px;
+}
+.article-right {
+	right: -30px;
 }
 .article-pink {
 	background-color: var(--secondary);
@@ -299,10 +317,6 @@ strong {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.blog-container {
-	position: absolute;
-	left: 40%;
 }
 
 /* COUNTRY MAPS */
@@ -325,6 +339,7 @@ strong {
 .hotels {
 	background-color: #fff;
 	padding: 30px 0;
+	text-align: center;
 }
 .hotel-container {
 	width: 80%;
@@ -341,6 +356,7 @@ strong {
 }
 .row-article {
 	padding: 0 20px;
+	text-align: left;
 }
 .curve {
 	width: 10%;
@@ -384,13 +400,21 @@ iframe {
 	height: 400px;
 	position: relative;
 }
+.overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgb(0, 0, 0,0.5);
+}
 .form2 {
 	background-color: #fff;
 	padding: 8px;
 	position: absolute;
 	width: 40%;
 	border-radius: 4px;
-	top: 10%;
+	top: 15%;
 	left: 55%;
 }
 .input-2 {
