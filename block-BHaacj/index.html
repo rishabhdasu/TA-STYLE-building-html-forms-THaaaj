@@ -51,10 +51,8 @@
             <form class="flex align-start" action="index.html" method="post">
                 <div class="flex-48">
                     <fieldset>
-                        <label for="destination">
-                            Choose Your Destination
+                        <label for="destination"> Choose Your Destination</label>
                             <input class="input-100" type="text" name="destination" id="destination" placeholder="Type Your Destination...">
-                        </label>
                         <fieldset class="flex flex-45 date-fieldset">
                             <label for="check-in">
                                 Check In
@@ -119,68 +117,74 @@
       </section>
       <section class=" container blogs">
             <div class="blog-page flex">
-                <div class="blog-img">
+                <div class="blog-img flex-50">
                     <img src="assets/media/tm-img-01.jpg" alt="Europe">
-                </div>
-                <div class="blog-container flex justify-start">
-                    <div class="flex">
-                        <div class="angle-icon flex-48"><i class="fas fa-angle-left"></i></div>
-                        <div class="angle-icon flex-48"><i class="fas fa-angle-right"></i></div>
+                    <div class="icon-container left flex">
+                        <div class="icon-round">
+                            <div class="angle-icon flex-48"><i class="fas fa-angle-left"></i></div>
+                        </div>
+                        <div class="icon-round">
+                            <div class="angle-icon flex-48"><i class="fas fa-angle-right"></i></div>
+                        </div>
                     </div>
-                    <article class="blog-article">
-                        <h3 class="blog-heading">
+                </div>
+                <article class="blog-article article-left flex-50">
+                    <h3 class="blog-heading">
                             Europe's most visited Places
-                        </h3>
-                        <p class="blog-para">
+                    </h3>
+                    <p class="blog-para">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe assumenda cupiditate quo, 
                             voluptas delectus perferendis modi, doloremque, ratione nisi earum fugiat.  
-                        </p>
-                        <button class="btn btn-primary btn-green"><a href="#">CONTINUE READING</a></button>
-                     </article>
+                    </p>
+                    <button class="btn btn-primary btn-green"><a href="#">CONTINUE READING</a></button>
+                </article>
+            </div>
+            <div class="blog-page flex">
+                <article class="blog-article article-pink article-right flex-50">
+                    <h3 class="blog-heading">
+                            Europe's most visited Places
+                    </h3>
+                    <p class="blog-para">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe assumenda cupiditate quo, 
+                            voluptas delectus perferendis modi, doloremque, ratione nisi earum fugiat.  
+                    </p>
+                    <button class="btn btn-primary btn-pink"><a href="#">CONTINUE READING</a></button>
+                </article>
+                <div class="blog-img flex-50">
+                    <img src="assets/media/tm-img-02.jpg" alt="Europe">
+                    <div class="icon-container right flex">
+                        <div class="icon-round">
+                            <div class="angle-icon flex-48"><i class="fas fa-angle-left"></i></div>
+                        </div>
+                        <div class="icon-round">
+                            <div class="angle-icon flex-48"><i class="fas fa-angle-right"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="blog-page flex">
-                <div class="blog-img img-right">
-                    <img src="assets/media/tm-img-02.jpg" alt="Europe">
-                </div>
-                <div class="blog-container flex justify-start">
-                    <div class="flex">
-                        <div class="angle-icon flex-48"><i class="fas fa-angle-left"></i></div>
-                        <div class="angle-icon flex-48"><i class="fas fa-angle-right"></i></div>
-                    </div>
-                    <article class="blog-article article-pink">
-                        <h3 class="blog-heading">
-                            Europe's most visited Places
-                        </h3>
-                        <p class="blog-para">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe assumenda cupiditate quo, 
-                            voluptas delectus perferendis modi, doloremque, ratione nisi earum fugiat.  
-                        </p>
-                        <button class="btn btn-primary btn-pink"><a href="#">CONTINUE READING</a></button>
-                     </article>
-                </div>
-            </div>
-                <div class="blog-page flex">
-                    <div class="blog-img img-right">
-                        <img src="assets/media/tm-img-03.jpg" alt="Europe">
-                    </div>
-                    <div class="blog-container flex justify-start">
-                        <div class="flex">
+                <div class="blog-img flex-50">
+                    <img src="assets/media/tm-img-03.jpg" alt="Europe">
+                    <div class="icon-container left flex">
+                        <div class="icon-round">
                             <div class="angle-icon flex-48"><i class="fas fa-angle-left"></i></div>
+                        </div>
+                        <div class="icon-round">
                             <div class="angle-icon flex-48"><i class="fas fa-angle-right"></i></div>
                         </div>
-                        <article class="blog-article">
-                            <h3 class="blog-heading">
-                                Europe's most visited Places
-                            </h3>
-                            <p class="blog-para">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe assumenda cupiditate quo, 
-                                voluptas delectus perferendis modi, doloremque, ratione nisi earum fugiat.  
-                            </p>
-                            <button class="btn btn-primary btn-green"><a href="#">CONTINUE READING</a></button>
-                         </article>
                     </div>
                 </div>
+                <article class="blog-article article-left flex-50">
+                    <h3 class="blog-heading">
+                            Europe's most visited Places
+                    </h3>
+                    <p class="blog-para">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe assumenda cupiditate quo, 
+                            voluptas delectus perferendis modi, doloremque, ratione nisi earum fugiat.  
+                    </p>
+                    <button class="btn btn-primary btn-green"><a href="#">CONTINUE READING</a></button>
+                </article>
+            </div>
       </section>
       <section class="country-maps">
           <div class="container flex justify-start">
@@ -308,10 +312,14 @@
                     </div>
                 </div>
             </div>
+            <button class="btn btn secondary">
+                SEND MESSAGE NOW
+            </button>
           </div>
       </section>
       <section class="contact container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.9196840309937!2d76.35140991502831!3d32.20639478114802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1617736707192!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       <div class="overlay"></div>
         <form class="form2" action="index.html">
            <fieldset class="flex">
             <input class=" input-2 flex-48" type="text" name="name" id="name" placeholder="Name">
