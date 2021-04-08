@@ -294,10 +294,10 @@ strong {
    z-index: 1;
 }
 .article-left {
-	left: -30px;
+	left: -22px;
 }
 .article-right {
-	right: -30px;
+	right: -25px;
 }
 .article-pink {
 	background-color: var(--secondary);
@@ -310,15 +310,27 @@ strong {
 	line-height: 1.1;
 	margin-bottom: 16px;
 }
-.angle-icon {
+.icon-round {
 	background: linear-gradient(rgb(121,114,108,0.5	), rgb(121,114,108,0.5));
+	margin-left: 4px;
 	width: 40px;
 	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.angle-icon {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
+.angle-icon i {
+	color: rgb(65, 62, 62);
+}
 /* COUNTRY MAPS */
 .map {
    width: 100%;
@@ -387,6 +399,9 @@ strong {
 	line-height: 1.2;
 	color: gray;
 	margin-top: 8px;
+}
+.btn-row {
+	margin-top: 18px;
 }
 span {
 	color: var(--secondary);
